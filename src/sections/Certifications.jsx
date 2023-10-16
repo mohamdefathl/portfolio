@@ -8,7 +8,7 @@ import first from '../assets/magp.png'
 import second from '../assets/logo.png'
 import meta from '../assets/meta.png'
 import yemen from '../assets/yemen.png'
-import fast from '../assets/fast.jpeg'
+// import fast from '../assets/fast.jpeg'
 export default function Certifications() {
 
     const list = [{
@@ -45,21 +45,21 @@ export default function Certifications() {
             },
         ]
     },
-    {
-        name: 'Fast Shopping',
-        description: 'A mobile app and website that creates an application and system connecting wholesalers with retailers or any commercial entity with their customers.',
-        img: fast,
-        tag: [
-            {
-                name: "django",
-                color: "green-text-gradient",
-            },
-            {
-                name: "flutter",
-                color: "blue-text-gradient",
-            },
-        ]
-    },
+    // {
+    //     name: 'Fast Shopping',
+    //     description: 'A mobile app and website that creates an application and system connecting wholesalers with retailers or any commercial entity with their customers.',
+    //     img: fast,
+    //     tag: [
+    //         {
+    //             name: "django",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "flutter",
+    //             color: "blue-text-gradient",
+    //         },
+    //     ]
+    // },
     {
         name: 'Meta Front-End Developer Professional Certificate',
         description: 'While obtaining this certificate, I have learned (Html , Css , Javascript , git , ReactJS , UX/UI design)',
