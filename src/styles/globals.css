@@ -1,12 +1,13 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0rem 0rem;
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
-}
-body{
-  background-color: #0F172A;
 }
 
 .gradient-01 {
@@ -40,7 +41,7 @@ body{
   right: 0px;
 
   background: #7aebfb;
-  filter: blur(240px);
+  filter: blur(190px);
 }
 
 .glassmorphism {
@@ -59,7 +60,7 @@ body{
   top: 5%;
 
   background: rgba(149, 66, 232, 0.35);
-  filter: blur(250px);
+  filter: blur(175px);
   transform: rotate(-114.2deg);
 }
 
