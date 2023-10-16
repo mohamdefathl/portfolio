@@ -86,7 +86,7 @@ const experiences = [
     iconBg: "#383E56",
     points: [
       "Working with microsoft office (excel , word , powerpoint)",
-      "Work with basic photoshop task",      
+      "Work with basic photoshop tasks",      
     ],
   },
 ];
