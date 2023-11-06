@@ -8,6 +8,7 @@ import first from '../assets/magp.png'
 import second from '../assets/logo.png'
 import meta from '../assets/meta.png'
 import yemen from '../assets/yemen.png'
+import fast from '../assets/fast.jpeg'
 // import fast from '../assets/fast.jpeg'
 export default function Certifications() {
 
@@ -45,6 +46,21 @@ export default function Certifications() {
             },
         ]
     },
+    {
+        name: 'The quick shopper',
+        description: 'A phone application and website that creates an application and system that links the wholesaler to the retailer or any commercial institution with its customers',
+        img: fast,
+        tag: [
+            {
+                name: "flutter",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "django",
+                color: "green-text-gradient",
+            },
+        ]
+    },
     // {
     //     name: 'Fast Shopping',
     //     description: 'A mobile app and website that creates an application and system connecting wholesalers with retailers or any commercial entity with their customers.',
@@ -64,7 +80,8 @@ export default function Certifications() {
         name: 'Meta Front-End Developer Professional Certificate',
         description: 'While obtaining this certificate, I have learned (Html , Css , Javascript , git , ReactJS , UX/UI design)',
         img: meta,
-    }, {
+    },
+     {
         name: 'Certificate from the Ministry of Higher Education and Scientific Research',
         description: 'A certificate of excellence in the first scientific competition in Information Technology organized by the Ministry of Higher Education and Scientific Research.',
         img: yemen,
